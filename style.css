@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    background-color: hsla(0, 0%, 0%, 0.18);
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#part1{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(26, 25, 25);
+}
+
+#part2{
+    height: 100%;
+    width: 63%;
+    background-image: url(side_image.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: rgb(185, 200, 202);
+}
+
+#part3{
+    height: 100%;
+    width: 27%;
+    background-color: hsla(189, 85%, 79%, 0.952);;
+}
